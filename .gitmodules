@@ -1,0 +1,3 @@
+[submodule "PoorEngine/vendor/spdlog"]
+	path = PoorEngine/vendor/spdlog
+	url = https://github.com/gabime/spdlog.git

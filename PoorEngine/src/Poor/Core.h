@@ -1,6 +1,6 @@
 #pragma once
 
-#ifdef PR_PlATFORM_WINDOWS
+#ifdef PR_PLATFORM_WINDOWS
 	#ifdef PR_BUILD_DLL
 		#define POOR_API __declspec(dllexport)
 	#else

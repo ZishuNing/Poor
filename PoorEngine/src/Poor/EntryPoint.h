@@ -1,11 +1,10 @@
 #pragma once
 
-#ifdef PR_PlATFORM_WINDOWS
-
-extern Poor::Application* Poor::CreateApplication();
+#ifdef PR_PLATFORM_WINDOWS
 
 int main(int argc, char** argv)
 {
+	Poor::Log::Init();
 	auto app = Poor::CreateApplication();
 	app->Run();
 	delete app;
